@@ -5,4 +5,7 @@ module.exports = {
         return middlewares;
       },
     },
+    resolve: {
+      extensions: ['.js', '.jsx', '.json'],
+    },
   };
